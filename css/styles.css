@@ -1,0 +1,465 @@
+* {
+  padding:0;
+  margin:0;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: 28px;
+  line-height: 1.75rem;
+  color: #494d4e;
+  font-weight: 300;
+  background: #fff; }
+
+p {
+  margin: 0 0 20px 0; }
+
+h1, h2, h3 {
+  font-family: "Yeseva One", cursive;
+  margin: 0.67em 0; }
+
+h1 {
+  font-size: 48px;
+  font-size: 3rem;
+  line-height: 64px;
+  line-height: 4rem; }
+
+h2 {
+  font-size: 36px;
+  font-size: 2.25rem;
+  line-height: 40px;
+  line-height: 2.5rem; }
+
+h3 {
+  font-size: 22px;
+  font-size: 1.375rem;
+  line-height: 28px;
+  line-height: 1.75rem; }
+
+h1, h2, h3 {
+  margin-bottom: .5em;
+  color: #c90;
+  font-weight: 400; }
+
+ul {
+  margin: 20px 0;
+  padding: 0 0 0 40px; }
+
+blockquote,
+.blockquote {
+  font-family: "Open Sans", cursive;
+  font-weight: 300;
+  font-style: italic;
+  margin: 20px 0; }
+
+blockquote p,
+.blockquote p {
+  font-size: 20px;
+  font-size: 1.5rem;
+  line-height: 30px;
+  line-height: 2.25rem;
+  margin-bottom: 20px; }
+
+blockquote cite,
+.blockquote cite {
+  font-size: 13px;
+  font-size: 0.9rem;
+  line-height: 23px;
+  line-height: 1.5625rem;
+  font-weight: 700;
+  font-style: normal; }
+
+label,
+button,
+input {
+  color: #000;
+  font: inherit;
+  margin: 0; }
+
+[type="text"],
+[type="tel"],
+[type="date"] {
+  height: 36px;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  -webkit-appearance: none;
+  -moz-appearance: textfield;
+  border-radius: 0; }
+
+[type="text"]:focus,
+[type="tel"]:focus,
+[type="date"]:focus {
+  background-color: #fff;
+  border-color: #f7c723;
+  outline: 0; }
+
+[type="date"]::-webkit-inner-spin-button {
+  display: none;
+  -webkit-appearance: none; }
+
+button {
+  border-radius: 0;
+  overflow: visible;
+  text-transform: none;
+  cursor: pointer; }
+
+input::-webkit-input-placeholder {
+  color: #999; }
+
+input::-moz-placeholder {
+  color: #999; }
+
+.button {
+  cursor: pointer;
+  border: 1px solid #d7d7d7;
+  background-color: #f3f3f3;
+  line-height: normal;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #363636;
+  display: inline-block;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s; }
+  .button:hover, .button:active {
+    text-decoration: none; }
+  .button:hover {
+    background: #f9f9f9; }
+
+.clear:before, 
+.clear:after {
+  content: " ";
+  display: table; }
+
+.clear:after {
+  clear: both; }
+
+.row:before, 
+.row:after {
+  content: "";
+  display: table; }
+
+.row:after {
+  clear: both; }
+
+.row {
+  position: relative;
+  margin-left: -15px;
+  margin-right: -15px; }  
+
+.container, 
+.container-full {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto; }  
+
+.heading:after, 
+.heading-secondary:after, 
+.banner-lead:after, 
+.footer-heading:after {
+  width: 270px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block; }
+
+.heading {
+  margin: 0;
+  text-align: center; }
+  .heading:after {
+    content: "";
+    margin-bottom: 20px; }
+
+.heading-secondary {
+  color: #fff; }
+  .heading-secondary:after {
+    content: "";
+    margin-bottom: 20px; }
+
+.button {
+  color: #000;
+  padding: 0.2em 4em;
+  text-decoration: none;
+  border: 1px solid transparent;
+  background: #c90;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  font-weight: 700;
+  display: inline-block;
+  text-transform: uppercase;
+  position: relative; } 
+  .button:hover {
+    background: #cd9f0b;
+    color: #fff; }
+    .button:active {
+      top: 1px; }
+
+.button-primary {
+  border: 1px solid #000;
+  background: #000;
+  background: rgba(0, 0, 0, 0.5); }
+.button-primary:hover {
+  background: #000;
+  background: black; }
+
+.feature-box {
+  padding: 20px 10px;
+  color: #fff;
+  background: #000;
+  background: rgba(0, 0, 0, 0.6); }
+
+.content-block {
+  background: #f6f6f6;
+  padding-top: 70px;
+  padding-bottom: 70px; }
+
+.banner {
+  background: url(../img/banner.jpg) 0 0 no-repeat;
+  background-size: cover;
+  text-align: center; }
+
+.banner-lead {        
+  margin-top: 35px; }
+  .banner-lead:after {
+    margin: 20px auto 0 auto;
+    content: "";
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+    -webkit-animation-delay: 1s;
+            animation-delay: 1s; }
+
+.header {  
+  background: #212121;
+  padding-bottom: 15px;
+  position: relative; }
+
+.header:after {
+  content: "";
+  width: 100%;
+  height: 1px;
+  background: #fff;
+  background: rgba(255, 255, 255, 0.2);
+  position: absolute;
+  bottom: 0;
+  left: 0; }
+
+.logo {
+  width: 110px;
+  height: 95px;
+  background: url(../img/kf_logo2.png) 50% 50% no-repeat;
+  display: inline-block;
+  float: left;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+  opacity: 1;
+  margin-top: 22px; }
+  .logo:hover {
+    opacity: .7; }
+
+.navigation-toggle-label {
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: normal;
+  border: 0;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: block;
+  float: right;
+  position: relative;
+  height: 20px;
+  width: 25px;
+  background: transparent;
+  margin-top: 50px;
+  margin-right: 10px;
+  color: #fff;
+  cursor: pointer; }
+
+.navigation-toggle-label:before, 
+.navigation-toggle-label:after, 
+.navigation-toggle-label .navigation-toggle-label-inner:before {
+  content: "";
+  width: 25px;
+  height: 1px;
+  background: #fff;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-transition: all .5s;
+          transition: all .5s; }
+  .navigation-toggle-label:after {
+    -webkit-transform: translate3d(0, 7px, 0);
+            transform: translate3d(0, 7px, 0); }
+  .navigation-toggle-label .navigation-toggle-label-inner:before {
+    -webkit-transform: translate3d(0, 14px, 0);
+            transform: translate3d(0, 14px, 0); }
+
+.navigation-toggle-checkbox[type=checkbox]:checked + .navigation-toggle-label:before {
+  -webkit-transform: translate3d(0, 7px, 0) rotate(-225deg);
+          transform: translate3d(0, 7px, 0) rotate(-225deg); }
+
+.navigation-toggle-checkbox[type=checkbox]:checked + .navigation-toggle-label:after {
+  opacity: 0; }
+
+.navigation-toggle-checkbox[type=checkbox]:checked + .navigation-toggle-label .navigation-toggle-label-inner:before {
+  -webkit-transform: translate3d(0, 7px, 0) rotate(45deg);
+          transform: translate3d(0, 7px, 0) rotate(45deg); }
+
+.navigation {
+  -webkit-transition: all .2s;
+  transition: all .2s;
+  opacity: 0;
+  max-height: 1px;
+  overflow: hidden;
+  clear: both; }
+  
+.navigation-toggle-checkbox[type=checkbox]:checked + .navigation-toggle-label + .navigation {
+  opacity: 1;
+  max-height: 400px; }
+
+.navigation-menu {
+  font-size: 18px;
+  font-size: 1.125rem;
+  line-height: 24px;
+  line-height: 1.5rem;
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+
+.navigation-menu .navigation-item {
+  display: block;
+  text-align: left;
+  margin-top: 10px; }
+
+.navigation-menu .navigation-item > a {
+  font-family: "Yeseva One", cursive;
+  margin: 0;
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  position: relative;
+  -webkit-transition: all .2s;
+          transition: all .2s; }
+
+.about-block {
+  background: url(../img/pixels.png) 0 0 repeat; }     
+
+.ingredients-block {
+  background: url(../img/banner-33.jpg) 0 0 no-repeat;
+  background-size: cover; }
+
+.feature-image-group {
+  padding-top: 20px;
+  text-align: center; }
+
+.feature-image {
+  display: inline-block;
+  margin: 0 5px;
+  border: 5px solid #494d4e;
+  border-radius: 100%;
+  width: 100px;
+  height: 100px; }
+
+.reviews-block {
+  background: url(../img/hero-111.jpeg) 47% 17% no-repeat;
+  background-size: cover; }
+
+.reservations-block {
+  background: url(../img/pixels.png)0 0 repeat; }
+
+.reservations-block .field {
+  border: 1px solid #ccc;
+  background: #fff;
+  background: rgba(255, 255, 255, 0.8);
+  -webkit-transition: all .2s;
+  transition: all .2s; }
+    .reservations-block .field:focus {
+      outline: 0;
+      border-color: #c90; }
+
+.reservations-submit {
+  margin-top: 20px;
+  padding: .5em 2.5em;
+  font-weight: 400; }
+
+.reservations-form-wrap {
+  border: 0;
+  margin: 0;
+  padding: 0; }
+
+.footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  color: #999;
+  background: #212121; }
+
+.footer strong {
+  color: #fff; }
+
+.footer-heading {
+  font-family: "Yeseva One", cursive;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #fff; }
+  .footer-heading:after {
+    margin-top: 20px;
+    content: ""; }
+
+.footer-heading {
+  font-size: 18px;
+  font-size: 1.125rem;
+  line-height: 24px;
+  line-height: 1.5rem; }    
+
+.footer-column {
+  position: relative;
+  padding-top: 20px; }
+  .footer-column:after {
+    content: "";
+    width: 100%;
+    height: 1px;
+    background: #fff;
+    background: rgba(255, 255, 255, 0.2);
+    position: absolute;
+    top: 20px; }
+
+.footer-column:first-child {
+  padding-top: 0; }
+  .footer-column:first-child:after {
+    content: none; }
+
+.footer-column p {
+  margin: 0; }    
+
+.icon-list-inline {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-top: 10px; }
+
+.icon-list-inline li {
+  margin-left: 10px;
+  display: inline-block; }
+  .icon-list-inline li:first-child {
+    margin-left: 0; }
+
+.sr {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px; }
+
+.img-fluid {
+  max-width: 100%; }
+
+.field {
+  width: 100%; }
